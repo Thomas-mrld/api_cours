@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^/?([a-z]+)/([0-9]*)$ /cours/api/?page=$1&id=$2 [L]
+RewriteRule ^/?([a-z]+)$ /cours/api/?page=$1 [L]
